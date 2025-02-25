@@ -1,0 +1,82 @@
+﻿body 
+{
+    font-family: Verdana;
+    background-color: rgb(102, 153, 153);
+    margin: 0px;
+}
+h2 
+{
+    display: block;
+    height: 70px;
+    width: 300px;
+}
+
+.clear 
+{
+    clear: both;
+}
+
+div.box 
+{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+div.information 
+{
+    clear: both;
+}
+
+div#serverInformation 
+{
+    clear: both;
+    margin-top: 30px;
+    font-size: 80%;
+    font-style: italic;
+}
+
+span#gameInformation 
+{
+    font-size: 120%;
+}
+
+div.mark1 
+{
+    background: url('../Images/krzyzyk.png') center center no-repeat;
+    background-size: 75px 75px;
+}
+
+div.mark2 {
+    background: url('../Images/kolko.png') center center no-repeat;
+    background-size: 75px 75px;
+}
+
+div#game {
+    width: 1000px;
+}
+
+fieldset {
+    margin-top: 100px;
+    display: none;
+}
+
+.button, .findGame
+{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding: 0px;
+    border: black 3px solid;
+    background-color: rgb(0, 204, 153);
+}
+
+.button:hover, .findGame:hover
+{
+     box-shadow: 5px 5px 10px;
+     cursor: pointer;
+}

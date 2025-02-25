@@ -1,0 +1,26 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Tic Tac Toe";
+}
+<h2><span>Kółko i krzyżyk</span></h2>
+<span id="gameInformation"></span>
+<div>
+    <div id="register">
+        <b>Podaj imię:</b>
+        <input type="text" id="gamer" class="input"/>
+        <br/>
+        <input type="button" class="button" id="registerName" value="Zarejestruj się żeby zagrać" />
+    </div>
+    <div id="findOpponent">
+        <b>Szukaj osoby do gry</b>
+        <input type="button" class="findGame" id="findGame" value="Szukaj przeciwnika" />
+    </div>
+    <div id="waitingForOpponent">Szukanie gracza - proszę czekać</div>
+    <div id="game">
+    </div>
+    <div class="clear"><input type="button" class="findGame" id="findAnotherGame" value="Znajdź nowego przeciwnika" /></div>
+</div>
+
+<script src="~/js/signalr/dist/browser/signalr.js"></script>
+<script src="~/js/script.js"></script>
